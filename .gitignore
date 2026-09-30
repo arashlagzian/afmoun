@@ -1,0 +1,46 @@
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Experiment outputs and checkpoints
+runs/
+checkpoints/
+wandb/
+outputs/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Generated data/token caches
+data/**/train_tokens_*.bin
+data/**/eval_tokens_*.bin
+data/**/*.bin
+*.npy
+*.npz
+*.parquet
+
+# Generated figures/reports
+figs/
+figures/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Local editor/OS metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
