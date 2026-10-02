@@ -1,4 +1,7 @@
-# AF-Muon
+# AF-Muon: An AdamW-Free Muon Optimizer for Tied-Embedding Models
+
+[[Paper (arXiv)]](https://arxiv.org/abs/2610.01395)
+An earlier, shorter version of this work was accepted as a poster at the OPT 2026 workshop (Optimization for Machine Learning) at NeurIPS 2026; this release and the arXiv version are the complete paper.
 
 This release contains code for AF-Muon, an AdamW-free Muon-family optimizer for
 models with tied vocabulary/token tables. AF-Muon keeps Muon's spectral update
@@ -442,3 +445,18 @@ AdamW beta1=0.9, beta2=0.95, eps=1e-8, weight_decay=0.1
 - The main comparisons use literature-motivated defaults plus targeted
   sensitivity diagnostics; they are not intended as compute-optimal tuning
   studies for every baseline on every model.
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{lagzian2026afmuon,
+  title   = {{AF-Muon}: An AdamW-Free Muon Optimizer for Tied-Embedding Models},
+  author  = {Lagzian, Arash and Halvachi, Paniz and Zhang, Junming and Lin, Zhouhan and Liu, Dianbo},
+  journal = {arXiv preprint arXiv:2610.01395},
+  year    = {2026},
+  note    = {An earlier, shorter version was accepted as a poster at the OPT 2026 workshop (Optimization for Machine Learning) at NeurIPS 2026}
+}
+```
+  
